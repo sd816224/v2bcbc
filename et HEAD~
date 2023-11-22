@@ -1,0 +1,107 @@
+[33mcommit 4bce229172e79bceadb20a96a2ecdfadff9fd675[m[33m ([m[1;36mHEAD -> [m[1;32mimage_workout[m[33m, [m[1;31morigin/image_workout[m[33m)[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Wed Nov 22 11:19:54 2023 +0000
+
+    return gitignore of ebextension
+
+[33mcommit dcd09ea5f254c179c863e3057f5ca010dde12a7a[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Wed Nov 22 10:04:34 2023 +0000
+
+    remove ebextension config
+
+[33mcommit d7ead5e5523878ea66857e1a4f8049bd8cfe43a2[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Wed Nov 22 10:03:23 2023 +0000
+
+    gitignore ebextension config
+
+[33mcommit 69e35528bdee1ce3baf9e775481c52ac1651e9cd[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Tue Nov 21 18:50:10 2023 +0000
+
+    install django-storages
+
+[33mcommit 1995e47141252d89870bfe7d04496943cc04d208[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Tue Nov 21 17:01:16 2023 +0000
+
+    try full_admin_user in IAM
+
+[33mcommit d254c7d291854f4870864b3fa91616cf4ae3ea5f[m[33m ([m[1;32mmaster[m[33m)[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Tue Nov 21 16:19:53 2023 +0000
+
+    s3 bucket for static files
+
+[33mcommit 44bb13fe3b9caab493425c0572a18cc69f85cf00[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Tue Nov 21 15:56:58 2023 +0000
+
+    deploy rds and create superuser with command
+
+[33mcommit 1d733731a9f28a608b8911a001f38e3ffa3f0bc6[m
+Author: sd816224 <ufoczl@yahoo.co.uk>
+Date:   Tue Nov 21 12:38:47 2023 +0000
+
+    update eb
+
+[33mcommit b4634f90022441c73399eca0c29134dfc935cd7c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Tue Feb 7 15:38:44 2023 +0100
+
+    Update README.md
+
+[33mcommit b14f8f71b9f2655501a2ee133d23296eb7eded39[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Tue Feb 7 15:37:24 2023 +0100
+
+    Update README.md
+
+[33mcommit 889062793da0a7ccca7f88836f22244d574fb368[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Thu Sep 29 16:08:18 2022 +0200
+
+    static files are now also served when DEBUG is on
+
+[33mcommit 6842e08f64e5767d2f6dc5c566b1f9d998f72997[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Tue Sep 27 14:17:09 2022 +0200
+
+    bumped requirements.txt
+
+[33mcommit 93ecdb91fcebdf461964e28df34da0c672cb1bc7[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Thu Feb 17 15:48:00 2022 +0100
+
+    Update README.md
+
+[33mcommit 4e77048eadfb44683d127527713bd86b7c48dea6[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Sun Feb 6 20:53:17 2022 +0100
+
+    added README.md
+
+[33mcommit 6500aa46ec5727b23518bbca11df8caad9e07837[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Sun Feb 6 20:46:04 2022 +0100
+
+    added image previews, fixed upload url
+
+[33mcommit b7843b4331483e421f0b9d0598e567feb6db6db6[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Fri Feb 4 20:15:32 2022 +0100
+
+    added upload_view
+
+[33mcommit 4ff409cdb9c8d73a6c28f0087f10b6f3ae33c715[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Fri Feb 4 19:49:29 2022 +0100
+
+    images index view
+
+[33mcommit 1bf655f34a657665de739bc206b101070de41ad0[m
+Author: Nik Tomazic <nick.tomazic@gmail.com>
+Date:   Fri Feb 4 18:28:57 2022 +0100
+
+    init
