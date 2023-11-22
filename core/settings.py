@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-m10c@k!u5b!y@=n%!9dxmc4#=q)q$)tdu$6$&w#1p_y107=2c_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bcbasketball.co.uk','www.bcbasketball.co.uk']
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['bcbasketball.co.uk','www.bcbasketball.co.uk']
 
 
 # Application definition
@@ -189,4 +190,4 @@ MEDIA_ROOT = BASE_DIR / 'mediafiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
