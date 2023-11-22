@@ -104,6 +104,9 @@ if os.getenv('AWS_STORAGE_BUCKET_NAME'):
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+
+
+
 if os.getenv('DS_DB_NAME'):
     DATABASES = {
         'default': {
