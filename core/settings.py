@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-m10c@k!u5b!y@=n%!9dxmc4#=q)q$)tdu$6$&w#1p_y107=2c_
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['bcbasketball.co.uk','www.bcbasketball.co.uk']
+ALLOWED_HOSTS = ['bcbasketball.co.uk','www.bcbasketball.co.uk','172.31.41.1']
 
 
 # Application definition
