@@ -10,29 +10,29 @@ This project is primarily used to demonstrate how to [deploy](https://github.com
 
 2. Create and activate a virtual environment:
 
-    ```sh
-    $ python3 -m venv venv && source venv/bin/activate
-    ```
+   ```sh
+   $ python3 -m venv venv && source venv/bin/activate
+   ```
 
 3. Install the requirements:
 
-    ```sh
-    (venv)$ pip install -r requirements.txt
-    ```
+   ```sh
+   (venv)$ pip install -r requirements.txt
+   ```
 
 4. Apply the migrations:
 
-    ```sh
-    (venv)$ python manage.py migrate
-    ```
+   ```sh
+   (venv)$ python manage.py migrate
+   ```
 
 5. Run the server:
 
-    ```sh
-    (venv)$ python manage.py runserver
-    ```
-    
- 6. Navigate to [http://localhost:8000/](http://localhost:8000/) in your favorite web browser.
+   ```sh
+   (venv)$ python manage.py runserver
+   ```
+
+6. Navigate to [http://localhost:8000/](http://localhost:8000/) in your favorite web browser.
 
 ## Want to learn how to deploy this project?
 
@@ -42,3 +42,16 @@ This project is primarily used to demonstrate how to [deploy](https://github.com
 - [Fly.io](https://testdriven.io/blog/django-fly/)
 - [Dokku](https://testdriven.io/blog/django-dokku/)
 
+eb create
+
+configure 9 env variables.
+
+configure aws route53:
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-beanstalk-environment.html#routing-to-beanstalk-environment-create-alias-procedure
+
+create license aws ACM
+
+set load balancer in eb console for https setup
+
+config listener
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html
